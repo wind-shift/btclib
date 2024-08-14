@@ -37,8 +37,8 @@ setup(
     packages=find_namespace_packages(exclude=["tests", "tests.*"]),
     include_package_data=True,
     # test_suite="btclib.tests",
-    install_requires=["btclib_libsecp256k1"],
-    # extras_require={"secp256k1": ["btclib_libsecp256k1"]},
+    # install_requires=["btclib_libsecp256k1"],
+    extras_require={"secp256k1": ["btclib_libsecp256k1"]},
     keywords=(
         "bitcoin cryptography elliptic-curves ecdsa schnorr RFC-6979 "
         "bip32 bip39 electrum base58 bech32 segwit message-signing "
